@@ -1,0 +1,51 @@
+.container-fluid {
+  padding: 0;
+}
+
+.navbar-default {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+}
+#first-slide {
+  background-image: url("../img/wood-2.jpg");
+  background-size: cover;
+  min-height: 600px;
+}
+
+#first-slide img {
+  max-height: 400px;
+  padding-top: 150px;
+}
+
+#second-slide {
+  background-image: url("../img/restaurant-2.jpg");
+  background-size: cover;
+  min-height: 600px;
+  background-position: center;
+}
+
+#second-slide .carousel-caption{
+  padding-bottom: 175px;
+}
+
+#second-slide button {
+  background-color: #f15a24;
+}
+
+#third-slide {
+  background-image: url("../img/farm-2.jpg");
+  background-size: cover;
+  min-height: 600px;
+  background-position: center;
+}
+
+#third-slide .carousel-caption{
+  padding-bottom: 175px;
+}
+
+#third-slide button {
+  background-color: #f15a24;
+}
